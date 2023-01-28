@@ -54,7 +54,7 @@ while True:
             if hasattr(comment, "body"):
                 comment_lower = comment.body.lower()
                 #" test string " on line 59 is the string that will be searched for and replied to
-                if " the " in comment_lower:
+                if " test string " in comment_lower:
                     print("--------------------------------COMMENT----------------------------------")
                     print("comment being replied to ---> ", comment.body)
                     if ai == True:
