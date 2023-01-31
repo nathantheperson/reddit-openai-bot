@@ -1,9 +1,10 @@
 # reddit-openai-bot
 searches for strings in reddit comments then replies using openai or randomly chosen response
 <br>
-<br>The point of this bot is to give ai generated responses to reddit users (unbeknownst to them).  
+<br>The point of this bot is to give ai generated responses to reddit users.  
 <br>Because the openai api is free to use for a finite amount of tokens, I've added a simple way to randomly pick 
 <br>from a list of pre curated responses. 
+<br>
 <br>
 <br>
 <br>Python version 3.11.1
